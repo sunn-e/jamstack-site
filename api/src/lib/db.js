@@ -1,21 +1,18 @@
-// See https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/constructor
-// for options.
+import { GraphQLClient } from "graphql-request";
 
-import { PrismaClient } from '@prisma/client'
+export const request = async (query = {}) => {
+  const endpoint = "https://graphql.fauna.com/graphql";
 
-import { emitLogLevels, handlePrismaLogging } from '@redwoodjs/api/logger'
+  const graphQLClient = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: "Bearer " + process.env.FAUNADB_SECRET,
+    },
+  });
 
-import { logger } from './logger'
-
-/*
- * Instance of the Prisma Client
- */
-export const db = new PrismaClient({
-  log: emitLogLevels(['info', 'warn', 'error']),
-})
-
-handlePrismaLogging({
-  db,
-  logger,
-  logLevels: ['info', 'warn', 'error'],
-})
+  try {
+    return await graphQLClient.request(query);
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+};
