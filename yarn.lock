@@ -2615,7 +2615,7 @@
     youch "2.2.2"
     youch-terminal "1.1.1"
 
-"@redwoodjs/api@0.35.2":
+"@redwoodjs/api@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.35.2.tgz#87bf4ecf083f895fa01ae9e55c7ab5445333c311"
   integrity sha512-M3OxTPoKCZN97/VgQQKDpxzMevofHzj2wpmee1xxVJk+yCqdrmqwK4a68apI7anf4yeveBUlEKuaJRTZGF62nQ==
@@ -2681,7 +2681,7 @@
     terminal-link "2.1.1"
     yargs "16.0.3"
 
-"@redwoodjs/core@0.35.2":
+"@redwoodjs/core@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@redwoodjs/core/-/core-0.35.2.tgz#0659d6811f7a52e4549c4dcd8aec585f9cd6655b"
   integrity sha512-ALVEFLGZVy9jLdLIYxWpVKIiO4ECD3a80URN6M4k3YXddQH0uttBJZMGyGQU0nu5t2saR1aTKAmx6ofmA6PYjQ==
@@ -2777,7 +2777,7 @@
     eslint-plugin-react-hooks "4.2.0"
     prettier "2.3.0"
 
-"@redwoodjs/forms@0.35.2":
+"@redwoodjs/forms@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.35.2.tgz#7cb4f1edf5cec40d680be849eb70ebf8dba63d2e"
   integrity sha512-4etEHUsKWAomP/RaSNkRikpMeDaLRNV1HykpbZwZjMJpIcp+8ERorGEWQuB/LQzV37IRofW8jBnbtD2OWogLGQ==
@@ -2827,7 +2827,7 @@
     cheerio "1.0.0-rc.10"
     node-fetch "2.6.1"
 
-"@redwoodjs/router@0.35.2":
+"@redwoodjs/router@0.35.2", "@redwoodjs/router@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.35.2.tgz#e10eb5cd1b6fbd592afcde4a854d0f0415b7459d"
   integrity sha512-xnYcBRCP1JSwf1rKS+w/MdzyGT3LYCvw7/QJrsUWQInm6oBRvqHAww22ygIVxjf4IhjXMRqFnYcsJNIpcZbZ6g==
@@ -2892,7 +2892,7 @@
     whatwg-fetch "3.6.2"
     x----x----x "^0 Types"
 
-"@redwoodjs/web@0.35.2":
+"@redwoodjs/web@0.35.2", "@redwoodjs/web@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.35.2.tgz#4c81625afd4252a7e97191d38f395cec4205f995"
   integrity sha512-3Pk+WNS9Oj7CrOT8jJGFw185aGxMUWRWK6x9ocvFTCitpDvd4CJgISvbXWro/7RjxaoFhfWjIyJ/bjYHW07PxQ==
